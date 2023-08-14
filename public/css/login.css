@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #2B2B2B;
+  color: whitesmoke;
+}
+h1,
+h2 {
+  margin: 15px;
+  color: whitesmoke;
+}
+
+.main,
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 2vh; */
+  color: #444444;
+}
+
+.form-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 44vw;
+  height: 46vh;
+  max-width: 406px;
+  padding: 2vh;
+  border-radius: 10px;
+  background-color: #434242;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin: 2vh;
+  width: 90%;
+}
+
+label {
+  margin-bottom: 0.5vh;
+  font-size: 0.9em;
+}
+
+input {
+  padding: 1vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  font-size: 0.9em;
+}
+
+button {
+  margin-top: 4vh;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #674be6;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2e06e0;
+}
+
+#response {
+  position: relative;
+  background-color: #2B2B2B;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1vh;
+  max-height: 50vh;
+  margin-top: 12px;
+  color: red;
+}
+
+#response a {
+  margin-top: 2vh;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #434242;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#msg-new {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#msg-new li {
+  margin-bottom: 0.5vh;
+  padding: 1vh;
+  border-radius: 5px;
+  background-color: #434242;
+  color: whitesmoke;
+  font-size: 0.9em;
+}
+
+.signup {
+  position: absolute;
+  bottom: 7vh;
+  color: #444444;
+  font-size: 0.9em;
+}
+
+.signup a {
+  margin-top: 2vh;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #674be6;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+  background-color: #360bf7;
+}

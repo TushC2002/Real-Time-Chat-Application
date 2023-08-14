@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Member</title>
+    <link rel="stylesheet" defer href="../css/addMember.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="add-member-form">
+        <h2>Search Member To Add To Group</h2>
+        <button id="close-btn">X</button>
+        <form id="my-form">
+          <h2 id="error"></h2>
+          <input
+            type="search"
+            id="text"
+            name="search"
+            placeholder="search for users ..."
+            required
+          />
+          <button id="searchBtn">Search</button>
+          <!-- <button type="submit">Submit</button> -->
+        </form>
+        <div class="add-member">
+          <ul id="add-member-list"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+  <script src="../js/addMember.js"></script>
+</html>

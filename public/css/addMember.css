@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #2B2B2B;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#my-form > label {
+  margin: 4px 15px;
+  font-size: 18px;
+}
+#error {
+  font-size: 17px;
+  margin: 0px;
+  text-align: center;
+  color: red;
+}
+
+ul {
+  list-style: lower-roman;
+  padding: 4px;
+  margin: 0px 30px;
+}
+
+#text {
+  font-size: 16px;
+  padding: 3px;
+  /* margin: 0px 5px; */
+  border-radius: 16px;
+}
+
+#add-member-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #434242;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+#add-member-form form {
+  background-color: #434242;
+  color: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+li > button {
+  background-color: #4b4bdd;
+  border-radius: 11px;
+  margin: 0px 10px;
+  cursor: pointer;
+  color: white;
+}
+#add-member-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#add-member-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#add-member-form input[type="email"],
+#add-member-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#searchBtn {
+  background-color: #4caf50;
+  color:white;
+  padding: 5px 9px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 21px;
+}
+
+#add-member-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(170, 87, 87);
+}
+
+#close-btn:hover {
+  color: rgb(24, 22, 22);
+  background-color: red;
+}
